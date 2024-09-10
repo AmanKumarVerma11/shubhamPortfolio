@@ -9,54 +9,45 @@ Currently, two official plugins are available:
 
 Steps to Run the Project:
 
-    1. #Clone the Repository: Open your terminal or command prompt and navigate to the directory where you want to clone the repository. Run the following command to clone the repository:
+# 1. Clone the Repository: 
+Open your terminal or command prompt and navigate to the directory where you want to clone the repository. Run the following command to clone the repository:
 
-git clone <repository-url>
+    git clone <repository-url>
 
-Replace <repository-url> with the actual GitHub repository URL.
+# 2. Navigate into the Project Directory: 
+After cloning, navigate into the project folder using:
 
-Navigate into the Project Directory: After cloning, navigate into the project folder using:
+    cd shubhamPortfolio
 
-bash
+# 3. Install Dependencies: 
+Install the required npm packages by running:
 
-cd <project-folder-name>
+    npm install
 
-Replace <project-folder-name> with the name of the cloned folder.
+This will read the package.json file and install all the necessary dependencies, such as React, Vite, and any plugins.
 
-Install Dependencies: Install the required npm packages by running:
+# 4. Start the Development Server: 
+To start the Vite development server with Hot Module Replacement (HMR), run the following command:
 
-bash
-
-npm install
-
-This will read the package.json file and install all the necessary dependencies like React, Vite, and any plugins.
-
-Start the Development Server: To start the Vite development server with Hot Module Replacement (HMR), run the following command:
-
-bash
-
-npm run dev
+    npm run dev
 
 This will start the development server, and you'll get a local URL, typically http://localhost:5173, where you can view the project in your browser.
 
-Lint the Project (Optional): If ESLint is configured, you can run the linter to check for coding issues by running:
+# 5. Lint the Project (Optional): 
+If ESLint is configured, you can run the linter to check for coding issues by running:
 
-bash
+    npm run lint
 
-npm run lint
+# 6. Build the Project for Production (Optional): 
+If you want to create a production build of the project, you can run:
 
-Build the Project for Production (Optional): If you want to create a production build of the project, you can run:
-
-bash
-
-npm run build
+    npm run build
 
 This will generate an optimized build inside a dist folder.
 
-Preview the Production Build (Optional): To preview how the production build will look, you can run:
+# 7. Preview the Production Build (Optional): 
+To preview how the production build will look, you can run:
 
-bash
-
-npm run preview
+    npm run preview
 
 This command will serve the content of the dist folder to allow you to check the production build locally.
