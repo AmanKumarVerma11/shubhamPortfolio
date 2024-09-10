@@ -12,7 +12,7 @@ Steps to Run the Project:
 # 1. Clone the Repository: 
 Open your terminal or command prompt and navigate to the directory where you want to clone the repository. Run the following command to clone the repository:
 
-    git clone <repository-url>
+    git clone https://github.com/AmanKumarVerma11/shubhamPortfolio.git
 
 # 2. Navigate into the Project Directory: 
 After cloning, navigate into the project folder using:
