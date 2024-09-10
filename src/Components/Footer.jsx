@@ -19,8 +19,7 @@ function Footer() {
         </li>
       </ul>
       <div >
-        <p className="text-center">© 2024 All rights reserved</p>
-        <p className="text-center pb-2">Made by <a href="https://github.com/AmanKumarVerma11">Aman Kumar Verma</a> </p>
+        <p className="text-center mb-3">© 2024 All rights reserved</p>
       </div>
     </div>
   )
