@@ -1,7 +1,12 @@
 // import React from 'react'
 import { useState } from 'react';
 import { FaArrowRight, FaGithub } from "react-icons/fa";
-
+import profilePic from '../assets/profilePic.jpg';
+import laptopImage from '../assets/laptop.png';
+import project1Image from '../assets/project1.jpg';
+import project2Image from '../assets/project2.jpg';
+import project3Image from '../assets/project3.jpg';
+import project4Image from '../assets/project4.jpg';
 
 function Body() {
 
@@ -40,7 +45,7 @@ function Body() {
     <div className="space-y-16 lg:space-y-20 mb-16 sm:mt-2 ">
       <div className="flex items-center justify-center">
         <div className="border-2 w-60 h-w-80 border-slate-100 shadow-xl rounded-full overflow-hidden animate-blob">
-          <img type="image/jpg" src="/src/assets/profilePic.jpg" alt="profile" className="w-full h-full object-cover" />
+          <img type="image/jpg" src={profilePic} alt="profile" className="w-full h-full object-cover" />
         </div>
       </div>
       <div className="flex flex-col items-center justify-center space-y-6 ">
@@ -65,7 +70,7 @@ function Body() {
       <div className="flex flex-col lg:flex-row items-center justify-center lg:space-x-6 ">
 
         <div className="hidden lg:flex" >
-          <img type="image/png" src="/src/assets/laptop.png" alt="profile" className="w-10/12 h-auto object-cover" />
+          <img type="image/png" src={laptopImage} alt="profile" className="w-10/12 h-auto object-cover" />
         </div>
 
         <div className="text-base/[22px] md:text-base/7 lg:text-lg space-y-3 text-justify font-lato lg:space-y-6 text-gray-900">
@@ -101,7 +106,7 @@ function Body() {
 
         <div className="space-y-2 font-lato lg:space-y-4 text-gray-900 shadow-xl shadow-gray-500/25 px-4 py-6 md:px-6 md:py-7 lg:px-7 lg:py-10 rounded-2xl mt-6 w-80 h-[470px] lg:h-[520px]">
           <div className="h-36 w-full overflow-hidden flex justify-center items-center">
-            <img type="image/jpg" src="/src/assets/project1.jpg" alt="Twitter Sentiment Analysis" />
+            <img type="image/jpg" src={project1Image} alt="Twitter Sentiment Analysis" />
           </div>
           <h1 className="text-lg font-semibold">Twitter Sentiment Analysis</h1>
           <ul className="flex flex-wrap items-center gap-2 text-xs">
@@ -119,7 +124,7 @@ function Body() {
 
         <div className="space-y-2 font-lato lg:space-y-4 text-gray-900 shadow-xl shadow-gray-500/25 px-4 py-6 md:px-6 md:py-7 lg:px-7 lg:py-10 rounded-2xl mt-6 w-80 h-[470px] lg:h-[520px]">
           <div  className="h-36 w-full overflow-hidden flex justify-center items-center">
-          <img type="image/jpg" src="/src/assets/project2.jpg" alt="Netflix Catalog Trends Visualization" />
+          <img type="image/jpg" src={project2Image} alt="Netflix Catalog Trends Visualization" />
           </div>
           <h1 className="text-lg font-semibold">Netflix catalog Trends Visualization</h1>
           <ul className="flex flex-wrap items-center gap-2 text-xs">
@@ -137,7 +142,7 @@ function Body() {
 
         <div className="space-y-2 font-lato lg:space-y-4 text-gray-900 shadow-xl shadow-gray-500/25 px-4 py-6 md:px-6 md:py-7 lg:px-7 lg:py-10 rounded-2xl mt-6 w-80 h-[470px] lg:h-[520px]">
           <div className="h-36 w-full overflow-hidden flex justify-center items-center">
-            <img type="image/jpg" src="/src/assets/project3.jpg" alt="Conversational Chatbot - Groq API Chat Assistant" />
+            <img type="image/jpg" src={project3Image} alt="Conversational Chatbot - Groq API Chat Assistant" />
           </div>
           <h1 className="text-lg font-semibold">Conversational Chatbot - Groq API Chat Assistant</h1>
           <ul className="flex flex-wrap items-center gap-2 text-xs">
@@ -156,7 +161,7 @@ function Body() {
 
         <div className="space-y-2 font-lato lg:space-y-4 text-gray-900 shadow-xl shadow-gray-500/25 px-4 py-6 md:px-6 md:py-7 lg:px-7 lg:py-10 rounded-2xl mt-6 w-80 h-[470px] lg:h-[520px]">
           <div className="h-36 w-full overflow-hidden flex justify-center items-center">
-          <img type="image/jpg" src="/src/assets/project4.jpg" alt="AWS S3 Static Website Hosting" />
+          <img type="image/jpg" src={project4Image} alt="AWS S3 Static Website Hosting" />
           </div>
           <h1 className="text-lg font-semibold">AWS S3 Static Website Hosting</h1>
           <ul className="flex flex-wrap items-center gap-2 text-xs">
